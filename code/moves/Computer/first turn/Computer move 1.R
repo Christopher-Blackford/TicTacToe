@@ -4,9 +4,7 @@ random_location <- runif(1, min=0, max=1)
 
 #If player chooses corner, computer chooses centre
 if (Move_1 == c(1|3|7|9)){
-  mat[2,2]=10
-  plot(O_5, add=T)
-  Computer_move_1 <- 5
+  mat[2,2]=10; plot(O_5, add=T); Computer_move_1 <- 5
 
 #If player chooses centre, computer chooses one of the corners
 }else if (Move_1 == 5){if (random_location < 0.25){mat[1,1]=10; plot(O_1, add=T); Computer_move_1 <- 1
@@ -25,4 +23,3 @@ if (Move_1 == c(1|3|7|9)){
 }else if (Move_1 == 8){if (random_location < 0.5){mat[3,1]=10; plot(O_7, add=T); Computer_move_1 <- 7}
   else {mat[3,3]=10; plot(O_9, add=T); Computer_move_1 <- 9}
 }
-  

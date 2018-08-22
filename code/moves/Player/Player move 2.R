@@ -1,7 +1,10 @@
 #Player move 2
-if (Move_2 == c(Move_1|Computer_move_1)){
-  print("Can't do that")
-  
+if (Move_2 == which(t(mat) %in% 1)){
+  print("You already went there! Please choose another position and rerun this code")
+
+}else if (Move_2 == which(t(mat) %in% 10)){
+    print("The computer already went there! Please choose another position and rerun this code")
+      
 }else if (Move_2 == 1){
   mat[1,1] = 1
   plot(X_1, add=TRUE)
