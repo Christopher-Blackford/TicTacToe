@@ -30,7 +30,7 @@ source("./code/moves/Computer/first turn/Computer move 1.R")
 #########################################
 #########################################
 #Player Move 2
-Move_2 <- 9
+Move_2 <- 8
 source("./code/moves/Player/Player move 2.R")
 
 #Computer Move 2
