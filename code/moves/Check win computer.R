@@ -12,3 +12,5 @@ if(Hor_1 == 30|
    Ver_3 == 30|
    Dia_1 == 30|
    Dia_2 == 30){print("Computer wins!")}
+
+if(length(which(mat %in% 0))==1){source("./code/moves/Player/Player move 5 automatic.R")}
