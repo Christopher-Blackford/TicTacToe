@@ -14,7 +14,7 @@ rm(list=ls()); library(rgeos); library(sp)
 source("./code/Game board.R"); source("./code/Xs.R"); source("./code/Os.R")
 
 #Set difficulty! You can set the difficulty to "Easy", "Medium", "Hard", and "Impossible"
-Difficulty <- "Impossible"; source("./code/Setting difficulty.R") 
+Difficulty <- "Impossible"; source("./code/Setting difficulty.R")
 
 
 #Now you can begin playing. Player is "X", Computer is "O"
@@ -30,21 +30,21 @@ source("./code/moves/Computer/first turn/Computer move 1 V2.R") #Showing compute
 
 #########################################
 #Player Move 2
-Move_2 <- 6
+Move_2 <- 3
 source("./code/moves/Player/Player move 2.R") #Showing player move
 source("./code/moves/Computer/Computer move.R") #Showing computer move
 
 
 #########################################
 #Player Move 3
-Move_3 <- 8
+Move_3 <- 4
 source("./code/moves/Player/Player move 3.R") #Showing player move
 source("./code/moves/Computer/Computer move.R") #Showing computer move
 
 
 #########################################
 #Player Move 4
-Move_4 <- 1
+Move_4 <- 9
 source("./code/moves/Player/Player move 4.R") #Showing player move
 source("./code/moves/Computer/Computer move.R") #Showing computer move
 
