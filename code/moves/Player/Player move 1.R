@@ -22,10 +22,11 @@ if (Move_1 == 1){
   mat[3,1] = 1
   plot(X_7, add=TRUE)
 }else if (Move_1 == 8){
-  mat[3,1] = 1
+  mat[3,2] = 1
   plot(X_8, add=TRUE)
 }else if (Move_1 == 9){
-  mat[3,1] = 1
+  mat[3,3] = 1
   plot(X_9, add=TRUE)
 }else {print("Wrong number")}
 
+Move_3 <- NULL
