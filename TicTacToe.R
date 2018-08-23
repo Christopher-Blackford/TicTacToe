@@ -15,6 +15,11 @@ source("./code/Game board.R")
 source("./code/Xs.R")
 source("./code/Os.R")
 
+#########################################
+#########################################
+#Set difficulty! Options are "Easy", "Medium", "Hard", "Impossible"
+Difficulty <- "Hard"; source("./code/Setting difficulty.R") 
+
 
 #########################################
 #########################################
@@ -30,7 +35,7 @@ source("./code/moves/Computer/first turn/Computer move 1.R")
 #########################################
 #########################################
 #Player Move 2
-Move_2 <- 8
+Move_2 <- 3
 source("./code/moves/Player/Player move 2.R")
 
 #Computer Move 2
@@ -41,7 +46,7 @@ source("./code/moves/Computer/Computer move.R")
 #########################################
 #########################################
 #Player Move 3
-Move_3 <- 6
+Move_3 <- 4
 source("./code/moves/Player/Player move 3.R")
 
 #Computer Move 3
@@ -52,7 +57,7 @@ source("./code/moves/Computer/Computer move.R")
 #########################################
 #########################################
 #Player Move 4
-Move_4 <- 7
+Move_4 <- 2
 source("./code/moves/Player/Player move 4.R")
 
 #Computer Move 4
@@ -63,7 +68,6 @@ source("./code/moves/Computer/Computer move.R")
 #########################################
 #########################################
 #Player Move 5
-#Move_5 <- 8
 source("./code/moves/Player/Player move 5 automatic.R")
 
 
