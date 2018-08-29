@@ -23,28 +23,28 @@ Difficulty <- "Impossible"; source("./code/Setting difficulty.R")
 
 #########################################
 #Player Move 1
-Move_1 <- 7
+Move_1 <- 9
 source("./code/moves/Player/Player move 1.R") #Showing player's first move
 source("./code/moves/Computer/first turn/Computer move 1 V2.R") #Showing computer's first move
 
 
 #########################################
 #Player Move 2
-Move_2 <- 3
+Move_2 <- 1
 source("./code/moves/Player/Player move 2.R") #Showing player move
 source("./code/moves/Computer/Computer move.R") #Showing computer move
 
 
 #########################################
 #Player Move 3
-Move_3 <- 4
+Move_3 <- 8
 source("./code/moves/Player/Player move 3.R") #Showing player move
 source("./code/moves/Computer/Computer move.R") #Showing computer move
 
 
 #########################################
 #Player Move 4
-Move_4 <- 9
+Move_4 <- 3
 source("./code/moves/Player/Player move 4.R") #Showing player move
 source("./code/moves/Computer/Computer move.R") #Showing computer move
 
