@@ -47,3 +47,5 @@ if(Hor_1 == 3|
    Dia_2 == 3){print("Player wins!")
   
 }else{print("Tie game!")}
+
+print("Thanks for playing! To play again, go to the top of the page and re-run starting from line 11")
