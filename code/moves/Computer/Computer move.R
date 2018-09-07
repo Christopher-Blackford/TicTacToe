@@ -1,6 +1,6 @@
 #########################################
 #########################################
-#Computer move consists of performing an offensive move if possible, then a defensive move if that is not possible
+#Computer move consists of performing an offensive move if possible, then a defensive move if that is not possible, then an offensive move if defensive move not needed
 Difficulty_threshold <- runif(1, min=0, max=1)
 
 #Summing rows, columns, diagonal and determining if any are one space away

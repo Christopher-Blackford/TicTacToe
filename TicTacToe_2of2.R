@@ -1,10 +1,12 @@
 ######################################################################
 ######################################################################
 ###Welcome to Tic-Tac-Toe in R
+#Created by: Christopher Blackford (www.christopherblackford.com/https://github.com/Christopher-Blackford)
+#Last updated: September 2018
 
 ###Instructions:
 #To play, simply Run through each line below. 
-#You control the difficulty (line 17) and the moves you make on the board (lines 32, 39, 46, 53)
+#You control the difficulty (line 19) and the moves you make on the board (lines 34, 41, 48, 55)
 #Have fun!
 
 #Clear memory and get R ready to set up Tic-Tac-Toe
@@ -29,28 +31,28 @@ Difficulty = "Impossible"; source("./code/Setting difficulty.R")
 
 #########################################
 #Player Move 1
-Move_1 = 2
+Move_1 = 1
 source("./code/moves/Player/Player move 1.R") #Showing player's first move
-source("./code/moves/Computer/first turn/Computer move 1 V2.R") #Showing computer's first move
+source("./code/moves/Computer/first turn/Computer move 1.R") #Showing computer's first move
 
 
 #########################################
 #Player Move 2
-Move_2 = 6
+Move_2 = 8
 source("./code/moves/Player/Player move 2.R") #Showing player move 2
 source("./code/moves/Computer/Computer move.R") #Showing computer move 2
 
 
 #########################################
 #Player Move 3
-Move_3 = 7
+Move_3 = 4
 source("./code/moves/Player/Player move 3.R") #Showing player move 3
 source("./code/moves/Computer/Computer move.R") #Showing computer move 3
 
 
 #########################################
 #Player Move 4
-Move_4 = 4
+Move_4 = 7
 source("./code/moves/Player/Player move 4.R") #Showing player move 4
 source("./code/moves/Computer/Computer move.R") #Showing computer move 4
 
@@ -60,7 +62,7 @@ source("./code/moves/Computer/Computer move.R") #Showing computer move 4
 source("./code/moves/Player/Player move 5 automatic.R") #Only one space left to go, so this is automatic
 
 
-#Thanks for playing! To play again, go to the top of the page and re-run starting from line 11
+#Thanks for playing! To play again, go to the top of the page and re-run starting from line 13
 
 ####
 ##
