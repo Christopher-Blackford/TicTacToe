@@ -16,7 +16,7 @@ rm(list=ls()); library(rgeos); library(sp)
 source("./code/Game board.R"); source("./code/Xs.R"); source("./code/Os.R")
 
 #Set difficulty! You can set the difficulty to "Easy", "Medium", "Hard", and "Impossible"
-Difficulty = "Impossible"; source("./code/Setting difficulty.R")
+Difficulty = "Easy"; source("./code/Setting difficulty.R")
 
 
 #Now you can begin playing. Player is "X", Computer is "O"
