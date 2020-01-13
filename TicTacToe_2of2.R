@@ -37,28 +37,28 @@ Difficulty = "Easy"; source("./code/Setting difficulty.R")
 Move_1 = 1
 source("./code/moves/Player/Player move 1.R") #Showing player's first move
 source("./code/moves/Computer/first turn/Computer move 1.R") #Showing computer's first move
-mat
+
 
 #########################################
 #Player Move 2
 Move_2 = 9
 source("./code/moves/Player/Player move 2.R") #Showing player move 2
 source("./code/moves/Computer/Computer move.R") #Showing computer move 2
-mat
+
 
 #########################################
 #Player Move 3
 Move_3 = 5
 source("./code/moves/Player/Player move 3.R") #Showing player move 3
 source("./code/moves/Computer/Computer move.R") #Showing computer move 3
-mat
+
 
 #########################################
 #Player Move 4
 Move_4 = 8
 source("./code/moves/Player/Player move 4.R") #Showing player move 4
 source("./code/moves/Computer/Computer move.R") #Showing computer move 4
-mat
+
 
 #########################################
 #Player Move 5
