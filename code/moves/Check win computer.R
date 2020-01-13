@@ -12,6 +12,6 @@ if(Hor_1 == 30|
    Ver_3 == 30|
    Dia_1 == 30|
    Dia_2 == 30){print("Computer wins!")
-  print("Thanks for playing! To play again, go to the top of the page and re-run")}
+  print("Thanks for playing! To play again, go to the top of the page and re-run from line 'rm(list=ls())'")}
 
 

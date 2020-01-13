@@ -12,4 +12,4 @@ if(Hor_1 == 3|
    Ver_3 == 3|
    Dia_1 == 3|
    Dia_2 == 3){print("Player wins!")
-  print("Thanks for playing! To play again, go to the top of the page and re-run")}
+  print("Thanks for playing! To play again, go to the top of the page and re-run from line 'rm(list=ls())'")}

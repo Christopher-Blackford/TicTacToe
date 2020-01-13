@@ -2,15 +2,18 @@
 ######################################################################
 ###Welcome to Tic-Tac-Toe in R
 #Created by: Christopher Blackford (www.christopherblackford.com/https://github.com/Christopher-Blackford)
-#Last updated: September 2018
+#Last updated: January 2020
 
 ###Instructions:
 #To play, simply Run through each line below. 
-#You control the difficulty (line 19) and the moves you make on the board (lines 34, 41, 48, 55)
+#You control the difficulty (line 22) and the moves you make on the board (lines 37, 44, 51, 58)
 #Have fun!
 
+#Loading libraries
+library(rgeos); library(sp)
+
 #Clear memory and get R ready to set up Tic-Tac-Toe
-rm(list=ls()); library(rgeos); library(sp)
+rm(list=ls())
 
 #Set-up game board, X and O graphics
 source("./code/Game board.R"); source("./code/Xs.R"); source("./code/Os.R")
@@ -34,28 +37,28 @@ Difficulty = "Easy"; source("./code/Setting difficulty.R")
 Move_1 = 1
 source("./code/moves/Player/Player move 1.R") #Showing player's first move
 source("./code/moves/Computer/first turn/Computer move 1.R") #Showing computer's first move
-
+mat
 
 #########################################
 #Player Move 2
-Move_2 = 8
+Move_2 = 9
 source("./code/moves/Player/Player move 2.R") #Showing player move 2
 source("./code/moves/Computer/Computer move.R") #Showing computer move 2
-
+mat
 
 #########################################
 #Player Move 3
-Move_3 = 4
+Move_3 = 5
 source("./code/moves/Player/Player move 3.R") #Showing player move 3
 source("./code/moves/Computer/Computer move.R") #Showing computer move 3
-
+mat
 
 #########################################
 #Player Move 4
-Move_4 = 7
+Move_4 = 8
 source("./code/moves/Player/Player move 4.R") #Showing player move 4
 source("./code/moves/Computer/Computer move.R") #Showing computer move 4
-
+mat
 
 #########################################
 #Player Move 5

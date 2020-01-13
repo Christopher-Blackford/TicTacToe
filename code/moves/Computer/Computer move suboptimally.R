@@ -24,10 +24,10 @@ if(suboptimal_space == 1){
   mat[3,1] = 10
   plot(O_7, add=TRUE)
 }else if (suboptimal_space == 8){
-  mat[3,1] = 10
+  mat[3,2] = 10
   plot(O_8, add=TRUE)
 }else if (suboptimal_space == 9){
-  mat[3,1] = 10
+  mat[3,3] = 10
   plot(O_9, add=TRUE)
 }
 
