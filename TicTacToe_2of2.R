@@ -1,7 +1,7 @@
 ######################################################################
 ######################################################################
 ###Welcome to Tic-Tac-Toe in R
-#Created by: Christopher Blackford (www.christopherblackford.com/https://github.com/Christopher-Blackford)
+#Created by: Christopher Blackford (www.christopherblackford.com and https://github.com/Christopher-Blackford)
 #Last updated: January 2020
 
 ###Instructions:
